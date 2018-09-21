@@ -1,24 +1,12 @@
-
-# GCD of more than two (or array) numbers 
-  
-# Function implements the Euclidian  
-# algorithm to find H.C.F. of two number 
-def find_gcd(x, y): 
-      
-    while(y): 
-        x, y = y, x % y 
-      
-    return x 
-          
-# Driver Code         
-l = [2, 4, 6, 8, 16] 
-  
-num1 = l[0] 
+def find gcd(x, y): 
+      while(y): 
+       x, y = y, x % y 
+      return x 
+      l = [2, 4, 6, 8, 16] 
+num1 = 1[0]
 num2 = l[1] 
 gcd = find_gcd(num1, num2) 
-  
-for i in range(2, len(l)): 
-    gcd = find_gcd(gcd, l[i]) 
-      
-print(gcd) 
+ for i in range(2, len(l)): 
+ gcd = find gcd(gcd, l[i]) 
+ print(gcd) 
   
